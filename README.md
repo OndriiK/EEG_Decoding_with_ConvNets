@@ -1,7 +1,6 @@
 [![Python][python-shield]][python-url]
 [![PyTorch][pytorch-shield]][pytorch-url]
 [![MOABB][moabb-shield]][moabb-url]
-[!License][license-shield]][license-url]
 
 ---
 
@@ -25,18 +24,49 @@ All our experiments use the [**MOABB framework**](https://github.com/NeuroTechX/
 
 ---
 
+## Project Structure
+├── README.md
+├── requirements.txt
+├── core.py
+├── dataset_bcic.py
+├── dataset_hgd.py
+├── models.py
+├── run.sh
+├── run_bcic.py
+├── run_combined.py
+├── run_hgd.py
+
+---
+
+## Setup
+
+### 1. Cloning the repository
+```bash
+git clone https://github.com/OndriiK/EEG_Decoding_with_ConvNets.git
+```
+### 2. Creating and activating a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+```
+
+### 3. Installing dependencies
+```bash
+pip install -r requirements.txt
+```
+
 ## Contributors
 Abubakar Mohamed Said Adan, Ondrej Kozanyi, Miina Mäkinen, and Julia Trznadel.
 
-Course: MSc Seminars in Data Science
-University: IT University Copenhagen
-Year: 2025
-
+- Course: M.Sc. Seminars in Data Science
+- University: IT University Copenhagen
+- Year: 2025
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [python-shield]:https://img.shields.io/badge/python-3.9%2B-blue.svg
 [pythin-url]:https://www.python.org/
-[pytoech-shield]:https://img.shields.io/badge/PyTorch-2.x-EE4C2C.svg
+[pytorch-shield]:(https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 [pytorch-url]:https://pytorch.org/
 [moabb-shield]:https://img.shields.io/badge/MOABB-develop-green.svg
 [moabb-url]:https://github.com/NeuroTechX/moabb
