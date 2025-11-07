@@ -66,9 +66,9 @@ Abubakar Mohamed Said Adan, Ondrej Kozanyi, Miina Mäkinen, and Julia Trznadel.
 - Year: 2025
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[python-shield]:https://img.shields.io/badge/python-3.9%2B-blue.svg
+[python-shield]:https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [python-url]:https://www.python.org/
 [pytorch-shield]:https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
 [pytorch-url]:https://pytorch.org/
-[moabb-shield]:https://img.shields.io/badge/MOABB-develop-green.svg
+[moabb-shield]:https://img.shields.io/badge/moabb-4cc79e?style=for-the-badge
 [moabb-url]:https://github.com/NeuroTechX/moabb
