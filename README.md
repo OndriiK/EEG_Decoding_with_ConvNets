@@ -4,7 +4,7 @@
 
 ---
 
-# EEG_Decoding_with_ConvNets
+# EEG Decoding with ConvNets
 
 ## Project Overview
 This project focuses on reproducing results from an academic study exploring the applications of convolutional neural networks in EEG decoding.
@@ -25,6 +25,7 @@ All our experiments use the [**MOABB framework**](https://github.com/NeuroTechX/
 ---
 
 ## Project Structure
+```
 ├── README.md
 ├── requirements.txt
 ├── core.py
@@ -35,7 +36,7 @@ All our experiments use the [**MOABB framework**](https://github.com/NeuroTechX/
 ├── run_bcic.py
 ├── run_combined.py
 ├── run_hgd.py
-
+```
 ---
 
 ## Setup
@@ -44,6 +45,7 @@ All our experiments use the [**MOABB framework**](https://github.com/NeuroTechX/
 ```bash
 git clone https://github.com/OndriiK/EEG_Decoding_with_ConvNets.git
 ```
+
 ### 2. Creating and activating a virtual environment
 ```bash
 python -m venv venv
@@ -65,10 +67,8 @@ Abubakar Mohamed Said Adan, Ondrej Kozanyi, Miina Mäkinen, and Julia Trznadel.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [python-shield]:https://img.shields.io/badge/python-3.9%2B-blue.svg
-[pythin-url]:https://www.python.org/
-[pytorch-shield]:(https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+[python-url]:https://www.python.org/
+[pytorch-shield]:https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
 [pytorch-url]:https://pytorch.org/
 [moabb-shield]:https://img.shields.io/badge/MOABB-develop-green.svg
 [moabb-url]:https://github.com/NeuroTechX/moabb
-[license-shield]:https://img.shields.io/badge/license-MIT-lightgrey.svg
-[license-url]:LICENSE
