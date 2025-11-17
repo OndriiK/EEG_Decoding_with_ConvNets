@@ -15,4 +15,4 @@ export MNE_DATA="$HOME/mne_data"
 cd "$SLURM_SUBMIT_DIR"
 
 SUBJECT_ID="${SLURM_ARRAY_TASK_ID}"
-srun python -W ignore::CryptographyDeprecationWarning run_and_train_amp_grad.py
+srun python -W ignore::CryptographyDeprecationWarning run_bcic.py
